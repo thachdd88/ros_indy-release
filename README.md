@@ -60,6 +60,3 @@ Versions of tools used:
 - rosdep version: `0.13.0`
 - rosdistro version: `0.7.0`
 - vcstools version: `0.1.40`
-
-
-# ros_indy-release
