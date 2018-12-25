@@ -1,0 +1,12 @@
+Source: ros-indigo-indyrp2-moveit-config
+Section: misc
+Priority: extra
+Maintainer: Thach Do <thach.do@neuromeka.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-indyrp2-description
+Homepage: http://moveit.ros.org/
+Standards-Version: 3.9.2
+
+Package: ros-indigo-indyrp2-moveit-config
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-indyrp2-description, ros-indigo-joint-state-publisher, ros-indigo-moveit-fake-controller-manager, ros-indigo-moveit-kinematics, ros-indigo-moveit-planners-ompl, ros-indigo-moveit-ros-move-group, ros-indigo-moveit-ros-visualization, ros-indigo-robot-state-publisher, ros-indigo-xacro
+Description: An automatically generated package with all the configuration and launch files for using the indyrp2 with the MoveIt! Motion Planning Framework
